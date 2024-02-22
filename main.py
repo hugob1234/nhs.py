@@ -161,6 +161,7 @@ def main():
                     if name in x:
                             print(f"This is {name} in database health insurance: {x[name][2]}")
                     else:
+                        print("Error.")
                         main()
                         break
                         
