@@ -157,7 +157,7 @@ def main():
                     break
                         
                 elif options == "ID check":
-                    name = input("Enter name of person you would like to find out their health insurance number")
+                    name = input("Enter name of person you would like to find out their health insurance number: ")
                     if name in x:
                             print(f"This is {name} in database health insurance: {x[name][2]}")
                     else:
