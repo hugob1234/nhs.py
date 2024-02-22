@@ -6,7 +6,7 @@ def main():
     x = {
         "Hugo Burton": ["009090", "band 7","NO123"],
         "Jane Smith": ["009091", "band 6","FO234"],
-        "Jacob Chatman": ["1", "band 6", "FT567"],
+        "John Fisher": ["1", "band 6", "FT567"],
     }
     
     job_applications = {
