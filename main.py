@@ -117,6 +117,7 @@ def main():
                     id = input("Enter your ID on your lanyard: ")
                     if name in x and id == x[name][0]:
                         x.pop(name)
+                        print(x)
                         print("successfully removed")
                         main()
                         break
